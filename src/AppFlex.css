@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.centeredcontainer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.fcontainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border: 2px pink solid;
+}
+.p1 {
+    position: absolute;
+    border: 2px red solid;
+    right: 100px;
+    top: 100px;
+}
+.bold {
+    font-weight: bold;
+}
+.p2 {
+    position: relative;
+    top: 100px;
+}
